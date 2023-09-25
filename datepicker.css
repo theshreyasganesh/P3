@@ -1,11 +1,12 @@
 body {
-  background: #333;
-  color: #fff; 
+  background: #ffffff;
+  color: black;
+  width: 300px;
 }
 
 .month-year {
-  background: #555;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4); 
+  background: red;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   border-radius: 4px;
   padding: 10px;
   font-size: 20px;
@@ -13,24 +14,25 @@ body {
 }
 
 .days, .dates {
+  color: white;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
 .day-name {
-  background: #555; 
+  background: #555;
   border-radius: 4px;
   font-size: 16px;
-  text-align: center; 
+  text-align: center;
 }
 
 .date {
-  background: none;
+  background: #000000;
   font-size: 16px;
   text-align: center;
-  cursor: pointer; 
-  border-radius: 4px; 
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .date:hover,
@@ -42,14 +44,16 @@ body {
 .spacing {
   background: none;
   opacity: 0.3;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .buttons {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding: 10px;
 }
+
+
 
 /* Styling for buttons */
 

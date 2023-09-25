@@ -1,0 +1,64 @@
+body {
+  background: #ffffff;
+  color: black;
+  width: 300px;
+}
+
+.month-year {
+  background: red;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.days, .dates {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.day-name {
+  background: #555;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.date {
+  background: #000000;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.date:hover,
+.date.selected {
+  background: #800;
+  color: #fff;
+}
+
+.spacing {
+  background: none;
+  opacity: 0.3;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+
+/* Styling for buttons */
+
+@media (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+  }
+}

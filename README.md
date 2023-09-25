@@ -13,6 +13,9 @@ The calendar displays days of the selected month in a grid with proper headers.
 Calendar navigation controls ("<" and ">") are functional.
 Clicking on valid days invokes the callback function correctly.
 Verify that datepicker.css is properly utilized for styling the date picker.
+
+
+
 Problem 2: Simple Table Template Processing:
 
 Open TableTemplate.js to review the implementation of the TableTemplate class.
@@ -28,11 +31,15 @@ Testing:
 
 Open datepicker.html and test-table.html to ensure they run without errors.
 Test the functionality of both the date picker and table template processing in these HTML files.
+
+
 Documentation:
 
 Review the README file to ensure it provides concise instructions for Problem 1 and Problem 2.
 Check if contributors' names (if applicable) are correctly listed.
 Ensure that any relevant licensing information is provided.
+
+
 Styling (Problem 1):
 
 Assess the visual presentation of the date picker in datepicker.css.
